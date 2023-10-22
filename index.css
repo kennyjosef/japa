@@ -240,21 +240,31 @@ footer p{
     section{
         flex-direction: column;
         margin-top: 5px;
+        width: 100%;
     }
     .sectionOne{
         /* border: 1px solid whitesmoke; */
         width: 80%;
-        margin: auto;
         margin-bottom: 10px;
+        margin-left: 0px;
+        margin: auto;
+        border: 1px solid red;
     }
     .moderate p{
         line-height: 25px;
-        text-align: justify;
+        font-size: 16px;
+        /* text-align: justify; */
         /* margin: auto; */
     }
-    .btn{
-        margin-left: 110px;
+    .moderate div{
         /* margin: auto; */
+
+        border: 1px solid red;
+    }
+    .btn{
+        /* margin-left: 110px; */
+        /* margin: auto; */
+        
     }
     .sectionTwo{
         margin: auto;
@@ -281,6 +291,9 @@ footer p{
      .mojo p{
          text-align: center;
          max-width: 400px;
+     }
+     .foot h4{
+        font-size: 20px;
      }
     
 }
